@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Mi Primera Página Web</title>
+    <style> 
+    h3#referenciasb {
+        font-weight: 900;
+    }
+    .compartido1 {
+        font-weight: 900;
+    }
+    body {
+        background-color: rgb(191, 234, 252);
+        line-height: 1.5;
+    }
+    h2 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .descripcion {
+        font-size: 2em;
+    }
+    .Titulo1 {
+        font-size: 3em;
+        color: rgb(2, 75, 2);
+        font-weight: 900;
+    }
+    .Semana1, .Semana2, .Semana3, .Semana4, .Semana5, .Semana6 {
+        color: rgb(2, 75, 2);
+    }
+    nav {
+        background-color: rgb(2, 75, 2);
+        width: 100%;
+        height: 50px;
+        float: left;
+        margin-bottom: 20px;
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    nav ul li {
+        display: inline;
+        line-height: 50px;
+        margin: 0 10px;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    nav ul li a:hover {
+        color: rgb(191, 234, 252);
+        text-decoration: underline;
+    }
+    article p.destacado-texto {
+        font-style: italic;
+        color: rgb(0, 50, 0);
+    }
+    #semana1 p, .descripcion {
+        font-family: Arial, sans-serif;
+    }
+    </style>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="#semana1">Semana 1</a></li>
+        <li><a href="#semana2">Semana 2</a></li>
+        <li><a href="#semana3">Semana 3</a></li>
+        <li><a href="#semana4">Semana 4</a></li>
+        <li><a href="#semana5">Semana 5</a></li>
+        <li><a href="#semana6">Semana 6</a></li>
+    </ul>
+</nav>
+
+<header>
+    <h1 class="Titulo1">Mi Primera Página Web</h1>
+    <p class="descripcion"><strong>Un lugar donde documento mi proceso de aprendizaje en la maquetación y programación web en HTML5</strong></p>
+</header>
+
+<section>
+    <article>
+        <h2>Sobre este sitio web</h2>
+        <p>Bienvenido a mi primer proyecto Web. Este sitio fue creado como parte de la actividad del primer avance del curso de tecnología para poner en práctica la creación de páginas web y el uso de las etiquetas fundamentales de HTML5.</p>
+        <p>A través de esta página, organizo los conceptos importantes aprendidos durante el periodo de aprendizaje de la creación de una Pagina Web.</p>
+    </article>
+
+    <article id="semana1">
+        <ol>
+            <li><h1 class="Semana1"> Semana #1 </h1></li>
+        </ol>
+        <p> En esta semana aprendí lo principal y primordial para crear la Pagina Web ya que aprendí a utilizar las etiquetas principales para tener lo basico</p>
+        <h2>Puntos claves aprendidos:</h2>
+        <ul>
+            <li><strong>Encabezado.</strong></li>
+            <li><strong>Pie de página.</strong></li>
+            <li><strong>Principales enlaces de navegación.</strong></li>
+            <li><strong>Sección de la página.</strong></li>
+            <li><strong>Artículo independiente.</strong></li>
+            <li><strong>Barra lateral.</strong></li>
+            <li><a href="#semana2"><strong>Ver avance de la Semana #2</strong></a></li>
+        </ul>
+    </article>
+
+    <article id="semana2">
+        <ol>
+            <li><h1 class="Semana2"> Semana #2 </h1></li>
+        </ol>
+        <p>En esta semana 2 aprendimos sobre el uso del CSS <em>"Cascading Style Sheets"</em> aclarando que se complementan pero no son lo mismo ya que son lenguajes diferentes, el CSS es un lenguaje de hojas de estilo en cascada y esta misma sirve para diseñar y personalizar la pagina de mejor manera, utilizando la etiqueta style, donde podemos personalizar la tipografia, el color de los parrafos, pero no solo eso, sino tambien el fondo de color de la Pagina Web, aplicando correctamente las reglas y sus propiedades.</p>
+        <h2>Puntos claves aprendidos</h2>
+        <ul>
+            <li><strong>Color del fondo de la Pagina Web</strong></li>
+            <li><strong>Tipografia</strong></li>
+            <li><strong>Color de texto</strong></li>
+            <li><strong>Tamaño de texto</strong></li>
+            <li><strong>Uso del id y class</strong></li>
+            <li><a href="#semana3"><strong>Ver avance de la Semana #3</strong></a></li>
+        </ul>
+    </article>
+
+    <article id="semana3">
+        <ol>
+            <li><h1 class="Semana3"> Semana #3 </h1></li>
+        </ol>
+        <p>En esta semana 3 aprendimos sobre el uso de las tablas en HTML para organizar la información, los comentarios dentro del código y las propiedades de texto en CSS para personalizar las fuentes y los estilos.</p>
+        <h2>Puntos claves aprendidos</h2>
+        <ul>
+            <li><strong>Uso de las tablas (table, tr, td, th)</strong></li>
+            <li><strong>Cómo comentar en HTML y CSS</strong></li>
+            <li><strong>Propiedades de fuente</strong></li>
+            <li><strong>Propiedades abreviadas</strong></li>
+            <li><strong>Propiedades de texto</strong></li>
+        </ul>
+
+        <h2>Tabla sobre las etiquetas de tablas</h2>
+        <table border="1">
+            <tr>
+                <th>Etiqueta</th>
+                <th>Descripción</th>
+            </tr>
+            <tr>
+                <td>table</td>
+                <td>Etiqueta contenedora que tendrá en su interior toda la tabla.</td>
+            </tr>
+            <tr>
+                <td>tr</td>
+                <td>Etiqueta contenedora de cada fila de la tabla.</td>
+            </tr>
+            <tr>
+                <td>td</td>
+                <td>Cada una de las celdas de la tabla.</td>
+            </tr>
+            <tr>
+                <td>th</td>
+                <td>Cada una de las celdas de cabecera de la tabla.</td>
+            </tr>
+        </table>
+        <li><a href="#semana4"><strong>Ver avance de la Semana #4</strong></a></li>
+    </article>
+
+    <article id="semana4">
+        <ol>
+            <li><h1 class="Semana4"> Semana #4 </h1></li>
+        </ol>
+        <p>Durante la cuarta semana del curso, continuamos mejorando nuestros conocimientos en HTML y CSS para enriquecer la estructura y el diseño visual de nuestro proyecto de la Pagina Web. A lo largo de estas lecciones, aprendí a implementar componentes clave de navegación y técnicas de estilizado más avanzadas.</p>
+        <h2>Puntos claves aprendidos</h2>
+        <ul>
+            <li><strong>Creación de Menús de Navegación</strong></li>
+            <li><strong>Combinación de Selectores y Clases</strong></li>
+            <li><strong>Agrupación de Selectores</strong></li>
+            <li><strong>Uso de Selectores Descendientes en Listas</strong></li>
+            <li><strong>Interactividad con la Pseudoclase</strong></li>
+            <li><a href="#semana5"><strong>Ver avance de la Semana #5</strong></a></li>
+        </ul>
+    </article>
+
+    <article id="semana5">
+        <ol>
+            <li><h1 class="Semana5"> Semana #5 </h1></li>
+        </ol>
+        <p>En esta quinta semana del curso nos enfocamos en profundizar en el <strong>Modelo de Caja</strong> y las propiedades de <strong>posicionamiento en CSS</strong>. Comprendimos que cada elemento HTML es visualizado como una caja rectangular compuesta por el contenido, el relleno, el borde y el margen. Además, aprendimos a maquetar y distribuir las secciones de la página web para lograr un diseño maquetado organizando, estructuras complejas como el encabezado, navegación, sección principal, barra lateral y pie de página.</p>
+        <h2>Puntos claves aprendidos</h2>
+        <ul>
+            <li><strong>Modelo de Caja (Content, Padding, Border, Margin)</strong></li>
+            <li><strong>Posicionamiento CSS (static, relative, absolute, fixed, sticky)</strong></li>
+            <li><strong>Control de flujo y alineación de elementos (float y clear)</strong></li>
+            <li><strong>Maquetación y distribución de la estructura web (Header, Nav, Section, Aside, Footer)</strong></li>
+            <li><a href="#semana6"><strong>Ver avance de la Semana #6</strong></a></li>
+        </ul>
+    </article>
+
+    <article id="semana6">
+        <ol>
+            <li><h1 class="Semana6"> Semana #6 </h1></li>
+        </ol>
+        <p>Durante esta sexta semana del curso exploramos el uso de <strong>Frameworks y Librerías</strong> en el desarrollo web. Comprendimos cómo herramientas como <strong><em>Bootstrap</em></strong> nos permiten acelerar el proceso de diseño y desarrollo mediante componentes prediseñados y sistemas de rejilla (grid), optimizando la adaptabilidad y el diseño responsivo de nuestros proyectos sin necesidad de escribir todo el código de estilos desde cero.</p>
+        <h2>Puntos claves aprendidos</h2>
+        <ul>
+            <li><strong>Implementación de Frameworks CSS (Bootstrap)</strong></li>
+            <li><strong>Uso eficiente de componentes prediseñados (Navbar, Cards, Alertas)</strong></li>
+            <li><strong>Diseño web adaptable y responsivo</strong></li>
+            <li><strong>Estructuración de proyectos mediante CDNs</strong></li>
+        </ul>
+    </article>
+</section>
+
+<aside>
+    <h3 id="referenciasb">Recursos y Videos Guía</h3>
+    <p class="compartido1">Videos compartidos por el tutor:</p>
+    <ul>
+        <li><a href="https://youtu.be/2wM33q5Fp2E" target="_blank">Explicación Sobre la Función de Etiquetas</a></li>
+        <li><a href="https://youtu.be/DxumDNXRtpI" target="_blank">Explicación de la Estructura de la Pagina Web</a></li>
+        <li><a href="https://www.youtube.com/watch?v=VMkA4CMloS0" target="_blank">Que es CSS?</a></li>
+    </ul>
+</aside>
+
+<footer>
+    <h2>Información del Autor</h2>
+    <img src="foto_autor.jpg" alt="Foto del autor del sitio web" width="150">
+    
+    <p><strong>Nombre:</strong> Erick Daniel Macías Solorzano</p>
+    <p><strong>Contacto:</strong> +593 96 914 3453</p>
+    <p><strong>Correo:</strong> dmerick91@gmail.com</p>
+    <p><strong>Institución:</strong> Skolmi</p>
+    <p>&copy; 2026 - Mi Primer Sitio Web</p>
+</footer>
+
+</body>
+</html>
